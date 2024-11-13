@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User will navigate to Bath Sense Page]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on collections of Faucet & Fittings]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on homePage]]>
+    </line>
+    <line>
+      <![CDATA[User should navigate to treat your senses to inspiring designs page]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to navigate to Bathrooms products page]]>
+    </line>
+    <line>
+      <![CDATA[Economyis selected]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to navigate to Bathrooms products page]]>
+    </line>
+    <line>
+      <![CDATA[Balconiesis selected]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to navigate to Bathrooms products page]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Entered the number]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User should navigate to Sleek Kitchens page]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on book consultation]]>
+    </line>
+    <line>
+      <![CDATA[User entered valid credentials]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on submit]]>
+    </line>
+    <line>
+      <![CDATA[User should see Thank You note ]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User shoULD Click On Ultra Block Products ]]>
+    </line>
+    <line>
+      <![CDATA[User should view ultra products]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[User clicled on cart link]]>
+    </line>
+    <line>
+      <![CDATA[Cart should be displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to mouse hover on waterproofing link]]>
+    </line>
+    <line>
+      <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on Bathrooms link]]>
+    </line>
+    <line>
+      <![CDATA[Store locator should be clicked]]>
+    </line>
+    <line>
+      <![CDATA[User is able to view store locator page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T17:48:44 IST" name="Default suite" finished-at="2024-11-13T17:58:45 IST" duration-ms="600659">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T17:48:44 IST" name="Default test" finished-at="2024-11-13T17:58:45 IST" duration-ms="600659">
+      <class name="com.runners.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:48:44 IST" name="setUpClass" finished-at="2024-11-13T17:48:45 IST" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52ccf197]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:48:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:50:59 IST" duration-ms="134095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to navigate to Treat Your Senses To Inspiring Designs page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["BathSense"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User will navigate to Bath Sense Page]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on collections of Faucet & Fittings]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on homePage]]>
+            </line>
+            <line>
+              <![CDATA[User should navigate to treat your senses to inspiring designs page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:50:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:51:36 IST" duration-ms="37550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to navigate to a specific Bathrooms products page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bathroom Products"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to navigate to Bathrooms products page]]>
+            </line>
+            <line>
+              <![CDATA[Economyis selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:51:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:52:00 IST" duration-ms="23551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to navigate to a specific Bathrooms products page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bathroom Products"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to navigate to Bathrooms products page]]>
+            </line>
+            <line>
+              <![CDATA[Balconiesis selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:52:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:52:54 IST" duration-ms="53874" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate that user should be able to navigate Decor pro and then return to decorpro page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Decor pro"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://www.asianpaints.com/decorpro.html" target="_blank" class="divisioncards" aria-label="decor-pro">...</a> is not clickable at point (546, 585). Other element would receive the click: <a class="track_third_level" href="https://www.asianpaints.com/where-the-heart-is/season-7.html" tabindex="-1">...</a>
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -> xpath: //a[@aria-label='decor-pro']]
+Session ID: 38d56ff02b84c734884855fdba8344d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.asianpaints.com/decorpro.html" target="_blank" class="divisioncards" aria-label="decor-pro">...</a> is not clickable at point (546, 585). Other element would receive the click: <a class="track_third_level" href="https://www.asianpaints.com/where-the-heart-is/season-7.html" tabindex="-1">...</a>
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -> xpath: //a[@aria-label='decor-pro']]
+Session ID: 38d56ff02b84c734884855fdba8344d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.stepDefinition.DecorPro.scroll_down_and_click_on_decor_pro(DecorPro.java:55)
+at ✽.scroll down and click on  decor pro(file:///C:/Users/yasac/eclipse-workspace/AsianPaints/./src/test/resources/features/decorPro.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to navigate to Bathrooms products page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:52:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:53:44 IST" duration-ms="50762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[LoginPage is successfully displayed]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Entered the number]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[Successfully logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:53:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:54:18 IST" duration-ms="33898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valiadate that user should be able to submit details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sleek Kitchens"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User should navigate to Sleek Kitchens page]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on book consultation]]>
+            </line>
+            <line>
+              <![CDATA[User entered valid credentials]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on submit]]>
+            </line>
+            <line>
+              <![CDATA[User should see Thank You note ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:54:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:56:06 IST" duration-ms="107358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to view ultra block products page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ultra Block3"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User shoULD Click On Ultra Block Products ]]>
+            </line>
+            <line>
+              <![CDATA[User should view ultra products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:56:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:57:24 IST" duration-ms="78477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to view add to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Hovering Waterproofing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[User clicled on cart link]]>
+            </line>
+            <line>
+              <![CDATA[Cart should be displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:57:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T17:58:44 IST" duration-ms="80005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that user should be able to go to store locator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Hovering Waterproofing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to mouse hover on waterproofing link]]>
+            </line>
+            <line>
+              <![CDATA[User should be able to see the sub-options in Waterproofing]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on Bathrooms link]]>
+            </line>
+            <line>
+              <![CDATA[Store locator should be clicked]]>
+            </line>
+            <line>
+              <![CDATA[User is able to view store locator page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runners.CucumberRunner@38102d01]" started-at="2024-11-13T17:58:44 IST" name="tearDownClass" finished-at="2024-11-13T17:58:45 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runners.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

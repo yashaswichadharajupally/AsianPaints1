@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="599.686" tests="9" skipped="0" failures="1" errors="0">
+<testcase classname="BathSense" name="Validate that user should be able to navigate to Treat Your Senses To Inspiring Designs page" time="134.009">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And scroll down and click on BathSense......................................passed
+And click on our collections of Faucet & Fittings...........................passed
+And click on go to homepage.................................................passed
+Then user should be navigated to Treat Your Senses To Inspiring Designs page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Bathroom Products" name="Validate that user should be able to navigate to a specific Bathrooms products page - #1.1" time="37.535">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And the user should be navigated to the Bathrooms products page.............passed
+Then the user selects the 0 checkbox in the filter..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Bathroom Products" name="Validate that user should be able to navigate to a specific Bathrooms products page - #1.2" time="23.54">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And the user should be navigated to the Bathrooms products page.............passed
+Then the user selects the 1 checkbox in the filter..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Decor pro" name="validate that user should be able to navigate Decor pro and then return to decorpro page" time="53.874">
+<failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;a href=&quot;https://www.asianpaints.com/decorpro.html&quot; target=&quot;_blank&quot; class=&quot;divisioncards&quot; aria-label=&quot;decor-pro&quot;&gt;...&lt;/a&gt; is not clickable at point (546, 585). Other element would receive the click: &lt;a class=&quot;track_third_level&quot; href=&quot;https://www.asianpaints.com/where-the-heart-is/season-7.html&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -&gt; xpath: //a[@aria-label='decor-pro']]
+Session ID: 38d56ff02b84c734884855fdba8344d1">
+<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://www.asianpaints.com/decorpro.html" target="_blank" class="divisioncards" aria-label="decor-pro">...</a> is not clickable at point (546, 585). Other element would receive the click: <a class="track_third_level" href="https://www.asianpaints.com/where-the-heart-is/season-7.html" tabindex="-1">...</a>
+  (Session info: chrome=130.0.6723.69)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -> xpath: //a[@aria-label='decor-pro']]
+Session ID: 38d56ff02b84c734884855fdba8344d1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.DecorPro.scroll_down_and_click_on_decor_pro(DecorPro.java:55)
+	at ✽.scroll down and click on  decor pro(file:///C:/Users/yasac/eclipse-workspace/AsianPaints/./src/test/resources/features/decorPro.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And the user should be navigated to the Bathrooms products page.............passed
+And scroll down and click on  decor pro.....................................failed
+And mouseHover on About DecorPro............................................skipped
+And Click on Decor by asian paints..........................................skipped
+Then decorPro page should be displayed......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="login" name="Validate that user should be able to login" time="50.756">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+And Click on Login icon.....................................................passed
+When Enter Phonenumber of ten Digits........................................passed
+And Click on proceed........................................................passed
+And Validate the login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sleek Kitchens" name="Valiadate that user should be able to submit details" time="33.889">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And scroll down and click on  sleek kitchens................................passed
+And Click on book consultation..............................................passed
+And enter the valid credentials.............................................passed
+And click on sumbit.........................................................passed
+Then verify consultation is booked or not...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ultra Block3" name="Validate that user should be able to view ultra block products page" time="107.353">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And click on Ultra Block products...........................................passed
+Then user should be able to view ultra block products page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hovering Waterproofing" name="Validate that user should be able to view add to cart" time="78.47">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And Click on cart link......................................................passed
+Then Cart link should be displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hovering Waterproofing" name="Validate that user should be able to go to store locator" time="80.003">
+<system-out><![CDATA[
+Given Browser should be launched and URL should be navigated................passed
+When User should be able to mouse hover on Waterproofing link...............passed
+And User should be able to see the sub-options in Waterproofing link when displayed.passed
+And click on Bathrooms link.................................................passed
+And Click on store locator link.............................................passed
+Then store locator page is displayed........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

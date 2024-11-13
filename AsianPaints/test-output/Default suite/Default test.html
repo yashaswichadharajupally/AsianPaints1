@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 17:48:44 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>600 seconds (600659 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate that user should be able to navigate Decor pro and then return to decorpro page", "Decor pro"<br/>
+<a href="#Output-1548162287" onClick='toggleBox("Output-1548162287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1548162287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1548162287">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User should be able to navigate to Bathrooms products page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www.asianpaints.com/decorpro.html&quot; target=&quot;_blank&quot; class=&quot;divisioncards&quot; aria-label=&quot;decor-pro&quot;&gt;...&lt;/a&gt; is not clickable at point (546, 585). Other element would receive the click: &lt;a class=&quot;track_third_level&quot; href=&quot;https://www.asianpaints.com/where-the-heart-is/season-7.html&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.69)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -&gt; xpath: //a[@aria-label=&apos;decor-pro&apos;]]
+Session ID: 38d56ff02b84c734884855fdba8344d1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.DecorPro.scroll_down_and_click_on_decor_pro(DecorPro.java:55)
+	at ✽.scroll down and click on  decor pro(file:///C:/Users/yasac/eclipse-workspace/AsianPaints/./src/test/resources/features/decorPro.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1548162287", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1548162287'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://www.asianpaints.com/decorpro.html&quot; target=&quot;_blank&quot; class=&quot;divisioncards&quot; aria-label=&quot;decor-pro&quot;&gt;...&lt;/a&gt; is not clickable at point (546, 585). Other element would receive the click: &lt;a class=&quot;track_third_level&quot; href=&quot;https://www.asianpaints.com/where-the-heart-is/season-7.html&quot; tabindex=&quot;-1&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=130.0.6723.69)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [38d56ff02b84c734884855fdba8344d1, clickElement {id=f.E3798BC68EDD5289E009FC4174358825.d.CD3E73759B87E50D22465662F40D5333.e.399}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.69, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\yasac\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59819/devtoo..., se:cdpVersion: 130.0.6723.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (38d56ff02b84c734884855fdba8344d1)] -&gt; xpath: //a[@aria-label=&apos;decor-pro&apos;]]
+Session ID: 38d56ff02b84c734884855fdba8344d1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.stepDefinition.DecorPro.scroll_down_and_click_on_decor_pro(DecorPro.java:55)
+	at ✽.scroll down and click on  decor pro(file:///C:/Users/yasac/eclipse-workspace/AsianPaints/./src/test/resources/features/decorPro.feature:9)
+</pre></div></td>
+<td>53</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to go to store locator", "Hovering Waterproofing"<br/>
+<a href="#Output-1539392017" onClick='toggleBox("Output-1539392017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539392017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539392017">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+Store locator should be clicked<br/>
+User is able to view store locator page<br/>
+</div>
+</td>
+<td></td>
+<td>80</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to navigate to a specific Bathrooms products page", "Bathroom Products"<br/>
+<a href="#Output-408987553" onClick='toggleBox("Output-408987553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-408987553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-408987553">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User should be able to navigate to Bathrooms products page<br/>
+Balconiesis selected<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to navigate to a specific Bathrooms products page", "Bathroom Products"<br/>
+<a href="#Output-977952572" onClick='toggleBox("Output-977952572", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977952572" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977952572">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User should be able to navigate to Bathrooms products page<br/>
+Economyis selected<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to view ultra block products page", "Ultra Block3"<br/>
+<a href="#Output-1567903868" onClick='toggleBox("Output-1567903868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1567903868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1567903868">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User shoULD Click On Ultra Block Products <br/>
+User should view ultra products<br/>
+</div>
+</td>
+<td></td>
+<td>107</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to navigate to Treat Your Senses To Inspiring Designs page", "BathSense"<br/>
+<a href="#Output-391575500" onClick='toggleBox("Output-391575500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-391575500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-391575500">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User will navigate to Bath Sense Page<br/>
+User clicked on collections of Faucet & Fittings<br/>
+User clicked on homePage<br/>
+User should navigate to treat your senses to inspiring designs page<br/>
+</div>
+</td>
+<td></td>
+<td>134</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to login", "login"<br/>
+<a href="#Output-1604700367" onClick='toggleBox("Output-1604700367", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604700367" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604700367">
+Browser is launched<br/>
+LoginPage is successfully displayed<br/>
+Successfully Entered the number<br/>
+Successfully logged in<br/>
+Successfully logged in<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that user should be able to view add to cart", "Hovering Waterproofing"<br/>
+<a href="#Output-1723402931" onClick='toggleBox("Output-1723402931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1723402931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1723402931">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User clicled on cart link<br/>
+Cart should be displayed<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+<tr>
+<td title='com.runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valiadate that user should be able to submit details", "Sleek Kitchens"<br/>
+<a href="#Output-71599579" onClick='toggleBox("Output-71599579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71599579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71599579">
+Browser is launched<br/>
+User should be able to mouse hover on waterproofing link<br/>
+User should be able to see the sub-options in Waterproofing<br/>
+User clicked on Bathrooms link<br/>
+User should navigate to Sleek Kitchens page<br/>
+User clicked on book consultation<br/>
+User entered valid credentials<br/>
+User clicked on submit<br/>
+User should see Thank You note <br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.runners.CucumberRunner@38102d01</td></tr>
+</table><p>
+</body>
+</html>
